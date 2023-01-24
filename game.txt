@@ -1,0 +1,29 @@
+=begin
+Nouns:
+
+Win
+  - play next round
+  - continue loop
+
+Loss
+  - player -= 1 life
+  
+Player
+  - answer questions
+
+New Turn
+  - fetch new questions
+  - display question for correct player
+  - wait for input
+  - check for correct question answer
+  - correct ? puts correct : puts wrong && lose 1 life
+  - display lives left
+  - player 1 or player 2 lives == 0 ? call Game over : call New Turn
+
+Game over
+  - called when p1 || p2 lives = 0
+  - exits loop
+
+
+
+=end
